@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #0f172a;
+    background-color: #f8fafc;
+  }
+}
+
+/* Accessibility: Elderly High-Contrast & Larger Type Mode */
+body.elderly-mode {
+  font-size: 1.15rem;
+  line-height: 1.65;
+}
+
+body.elderly-mode button,
+body.elderly-mode input,
+body.elderly-mode select,
+body.elderly-mode textarea {
+  min-height: 52px;
+  font-size: 1.1rem;
+}
+
+body.elderly-mode .elderly-scale-text {
+  font-size: 1.25rem !important;
+}
+
+body.elderly-mode .elderly-token-hero {
+  font-size: 3.5rem !important;
+}
+
+/* Tabular figures for numbers */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

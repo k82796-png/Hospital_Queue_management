@@ -1,0 +1,7 @@
+{
+  "name": "SwasthyaFlow - Hospital Queue & Patient Management",
+  "description": "Smart hospital queue and waiting-time management system with patient digital tokens, doctor consultation dashboard, and admin department traffic control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
